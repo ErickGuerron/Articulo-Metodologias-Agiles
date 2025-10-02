@@ -1,0 +1,62 @@
+# Archivos auxiliares de LaTeX
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.synctex.gz
+*.synctex.gz(busy)
+*.toc
+*.out
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+*.xdv
+
+# Archivos de índice
+*.idx
+*.ilg
+*.ind
+
+# Glosarios y nomenclaturas
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.ist
+*.nlo
+*.nls
+
+# Archivos temporales
+*.tmp
+*.bak
+
+# Carpetas de salida comunes
+_build/
+latex.out/
+out/
+build/
+
+# PDFs generados automáticamente (mantén los de imágenes si los necesitas)
+sn-article.pdf
+user-manual.pdf
+
+# Archivos compilados extra
+*.dvi
+*.ps
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de editores
+.vscode/
+.idea/
+
+# Ignorar el propio .gitignore de backups (pero no este)
+.gitignore~
